@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Run Classes">
+    <test name="Classes">
+        <classes>
+            <class name="tests._01_Basics.C03_Priority"></class>
+            <class name="tests._01_Basics.C04_DependsOnMethods"></class>
+        </classes>
+    </test>
+</suite>

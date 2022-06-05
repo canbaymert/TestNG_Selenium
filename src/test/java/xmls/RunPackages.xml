@@ -1,14 +1,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
-<suite name="belirli pacakage calistirma">
-    <test name="paket">
+<suite name="Run Packages">
+    <!--Run given packages and classes-->
+    <test name="Packages">
         <packages>
             <package name="tests._02_PageObjectModel"></package>
             <package name="tests.day18_pom"></package>
         </packages>
     </test>
-    <test name="ayri test class i">
+    <test name="Negative Login">
         <classes>
-            <class name="tests._03_SmokeTest.C01_NegativeLoginTest"></class>
+            <class name="tests._03_SmokeTests.C01_NegativeLoginTest"></class>
         </classes>
     </test>
 </suite>

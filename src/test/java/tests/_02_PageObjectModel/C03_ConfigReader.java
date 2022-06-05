@@ -17,7 +17,7 @@ public class C03_ConfigReader {
     public void test02() {
         FacebookPage facebookPage=new FacebookPage();
         Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
-        facebookPage.cookieButton.click();
+        // facebookPage.cookieButton.click();
         // Enter an invalid mail address
         facebookPage.mailBox.sendKeys(ConfigReader.getProperty("fbWrongUsername"));
         // Enter an invalid password

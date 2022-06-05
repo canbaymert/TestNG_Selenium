@@ -24,7 +24,7 @@ public class C02_PageClass {
     public void test02() {
         FacebookPage facebookPage=new FacebookPage();
         Driver.getDriver().get("https://www.facebook.com");
-        facebookPage.cookieButton.click();
+        // facebookPage.cookieButton.click();
         // Enter a fake e-mail address
         Faker faker=new Faker();
         facebookPage.mailBox.sendKeys(faker.internet().emailAddress());

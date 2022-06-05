@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Run Groups">
+    <!--Run groups belong to given packages-->
+    <test name="Groups">
+        <groups>
+            <run>
+                <exclude name="group2"></exclude>
+                <include name="group1"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="tests._01_Basics"></package>
+            <package name="tests._02_PageObjectModel"></package>
+            <package name="tests._03_SmokeTests"></package>
+        </packages>
+    </test>
+</suite>

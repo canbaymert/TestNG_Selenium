@@ -24,7 +24,4 @@ public class C01_WindowHandle {
         Driver.closeDriver();
     }
 
-
-
-
 }
