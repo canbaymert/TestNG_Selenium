@@ -1,4 +1,4 @@
-package tests.day19_smokeTest;
+package tests._03_SmokeTest;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

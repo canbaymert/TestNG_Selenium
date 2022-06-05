@@ -17,5 +17,5 @@ public class WebDriverUniversityPage {
     public WebElement javaScriptConfirmBox;
 
     @FindBy(xpath = "//p[@id='confirm-alert-text']")
-    public WebElement yaziElementi;
+    public WebElement textElement;
 }

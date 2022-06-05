@@ -5,18 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e38d52-2d78-4a48-b9b1-43326a7e8076" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C03_ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_04_ReusableMethods/C01_WindowHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BrcPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BrcPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C02_PageClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C02_PageClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C03_PageClassKullanimi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18_pom/C01_ConfigReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day18_pom/C02_ConfigReaderKullanimi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/NegativeLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/C01_NegativeLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/PozitifLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/C02_PositiveLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day20_xmlFiles/C01_BugunXmlDosyalarOlusturuldu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SauceDemoPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SauceDemoPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WebDriverUniversityPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WebDriverUniversityPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C03_Priority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C03_Priority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C01_Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C01_Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C03_ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C03_ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/C01_NegativeLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_03_SmokeTest/C01_NegativeLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/C02_PositiveLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_03_SmokeTest/C02_PositiveLoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day21_reusableMethods_HtmlReports/C01_WindowHandleReusableMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day21_reusableMethods_HtmlReports/C02_ScreenShotReusableMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_04_ReusableMethods/C02_ScreenShot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day21_reusableMethods_HtmlReports/C03_PositiveLoginTestiRaporlu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_05_Report/C01_PositiveLoginTestWithReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C01_AssertionsCross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_06_CrossBrowser/C01_AssertionsCross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C02_SoftAssertCross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_06_CrossBrowser/C02_SoftAssertCross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C03_DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_06_CrossBrowser/C03_DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C04_NegativeLoginDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/_06_CrossBrowser/C04_DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xmls/CrossBrowserClassCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xmls/CrossBrowserClassCalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xmls/CrossBrowserParalelCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xmls/CrossBrowserParalelCalistirma.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/xmls/belirliClasslariCalistirma.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xmls/belirliClasslariCalistirma.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/xmls/istenenPackageCalistir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/xmls/istenenPackageCalistir.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,17 +76,17 @@
       <recent name="C:\Users\Mert\IdeaProjects\TestNG_Selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C02_PositiveLoginTest">
-    <configuration name="C01_Driver.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C01_PositiveLoginTestWithReport.positiveLoginTest">
+    <configuration name="C01_AssertionsCross.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests._02_PageObjectModel.*" />
+          <option name="PATTERN" value="tests._06_CrossBrowser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests._02_PageObjectModel" />
-      <option name="MAIN_CLASS_NAME" value="tests._02_PageObjectModel.C01_Driver" />
+      <option name="PACKAGE_NAME" value="tests._06_CrossBrowser" />
+      <option name="MAIN_CLASS_NAME" value="tests._06_CrossBrowser.C01_AssertionsCross" />
       <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -81,34 +95,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C01_NegativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_PositiveLoginTestWithReport.positiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day19_smokeTest.*" />
+          <option name="PATTERN" value="tests._05_Report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day19_smokeTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19_smokeTest.C01_NegativeLoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C01_NegativeLoginTest.negativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Selenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.day19_smokeTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.day19_smokeTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19_smokeTest.C01_NegativeLoginTest" />
-      <option name="METHOD_NAME" value="negativeLoginTest" />
+      <option name="PACKAGE_NAME" value="tests._05_Report" />
+      <option name="MAIN_CLASS_NAME" value="tests._05_Report.C01_PositiveLoginTestWithReport" />
+      <option name="METHOD_NAME" value="positiveLoginTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,34 +113,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C02_PositiveLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C01_WindowHandle.test02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.day19_smokeTest.*" />
+          <option name="PATTERN" value="tests._05_Report.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.day19_smokeTest" />
-      <option name="MAIN_CLASS_NAME" value="tests.day19_smokeTest.C02_PositiveLoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests._04_reusableMethods" />
+      <option name="MAIN_CLASS_NAME" value="tests._04_ReusableMethods.C01_WindowHandle" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C06_SoftAssert.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C03_DataProvider.test02" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Selenium" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests._01_Basics.*" />
+          <option name="PATTERN" value="tests._06_CrossBrowser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests._01_Basics" />
-      <option name="MAIN_CLASS_NAME" value="tests._01_Basics.C06_SoftAssert" />
+      <option name="PACKAGE_NAME" value="tests._06_CrossBrowser" />
+      <option name="MAIN_CLASS_NAME" value="tests._06_CrossBrowser.C03_DataProvider" />
       <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C04_DataProvider.invalidEntry" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests._06_CrossBrowser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests._06_CrossBrowser" />
+      <option name="MAIN_CLASS_NAME" value="tests._06_CrossBrowser.C04_DataProvider" />
+      <option name="METHOD_NAME" value="invalidEntry" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -153,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C02_PositiveLoginTest" />
-        <item itemvalue="TestNG.C01_NegativeLoginTest" />
-        <item itemvalue="TestNG.C01_NegativeLoginTest.negativeLoginTest" />
-        <item itemvalue="TestNG.C01_Driver.test01" />
-        <item itemvalue="TestNG.C06_SoftAssert.test02" />
+        <item itemvalue="TestNG.C01_PositiveLoginTestWithReport.positiveLoginTest" />
+        <item itemvalue="TestNG.C04_DataProvider.invalidEntry" />
+        <item itemvalue="TestNG.C03_DataProvider.test02" />
+        <item itemvalue="TestNG.C01_AssertionsCross.test01" />
+        <item itemvalue="TestNG.C01_WindowHandle.test02" />
       </list>
     </recent_temporary>
   </component>

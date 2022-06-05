@@ -21,8 +21,8 @@ public class SauceDemoPage {
     public WebElement loginButton;
 
     @FindBy(xpath ="//select[@class ='product_sort_container']")
-    public WebElement dropDown;
+    public WebElement dropDownMenu;
 
     @FindBy(className ="inventory_item_price")
-    public List<WebElement> urunler;
+    public List<WebElement> products;
 }

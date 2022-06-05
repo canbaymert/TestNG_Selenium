@@ -36,7 +36,7 @@ public class Q3_SoftAssert {
         sdpage.password.sendKeys("secret_sauce");
         sdpage.loginButton.click();
 
-        Select select =new Select(sdpage.dropDown);
+        Select select =new Select(sdpage.dropDownMenu);
         select.selectByVisibleText("Price (low to high)");
 
         String expected = "PRICE (LOW TO HIGH)";
@@ -59,11 +59,11 @@ public class Q3_SoftAssert {
         sdpage.password.sendKeys("secret_sauce");
         sdpage.loginButton.click();
 
-        Select select =new Select(sdpage.dropDown);
+        Select select =new Select(sdpage.dropDownMenu);
         select.selectByIndex(2);
         ArrayList<Double> urunlerDouble = new ArrayList<>();
 
-        for (WebElement each: sdpage.urunler){
+        for (WebElement each: sdpage.products){
            // String fiyatStr = each.getText().replaceAll("$", "");
             String fiyatStr = each.getText().replaceAll("^\\D", "");
             urunlerDouble.add(Double.parseDouble(fiyatStr));

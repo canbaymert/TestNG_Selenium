@@ -7,7 +7,7 @@ public class C03_Priority extends TestBase {
      /*
      Test methods works according to alphabetical order if they have same priority.
      Default priority is 0 (if not assigned)
-     Smaller priority works before the bigger one.
+     Method with the smallest priority value starts working first.
      */
 
     @Test (priority = -5)

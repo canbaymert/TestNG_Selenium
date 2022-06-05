@@ -1,4 +1,4 @@
-package tests.day19_smokeTest;
+package tests._03_SmokeTest;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -10,7 +10,7 @@ import utilities.ReusableMethods;
 public class C01_NegativeLoginTest {
     BrcPage brcPage;
     @Test
-    public void negativeLoginTest() throws InterruptedException {
+    public void negativeLoginTest() {
         brcPage=new BrcPage();
         // Navigate to https://www.bluerentalcars.com/
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));

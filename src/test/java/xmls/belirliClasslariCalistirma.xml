@@ -12,7 +12,7 @@
     <test name="classlar">
         <classes>
             <class name="tests._01_Basics.C03_Priority"></class>
-            <class name="tests._02_PageObjectModel.C01_Driver"></class>
+            <class name="tests._02_PageObjectModelC01_Driver"></class>
         </classes>
     </test>
 

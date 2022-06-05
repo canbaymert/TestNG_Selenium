@@ -8,27 +8,23 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class CrossDriver {
-    private  CrossDriver(){
+    // Default constructor is defined as private to prevent user to create an object by this class.
+    private CrossDriver() {
 
     }
     static WebDriver driver;
-
-    public static WebDriver getDriver(String browser){
+    public static WebDriver getDriver(String browser) {
         browser = (browser == null) ? ConfigReader.getProperty("browser") : browser;
 
-        if (driver==null) {
-            switch (browser){
-                case "chrome" :
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                    break;
-                case "safari" :
+        if (driver == null) {
+            switch (browser) {
+                case "safari":
                     WebDriverManager.safaridriver().setup();
-                    driver=new SafariDriver();
+                    driver = new SafariDriver();
                     break;
-                case "firefox" :
+                case "firefox":
                     WebDriverManager.firefoxdriver().setup();
-                    driver=new FirefoxDriver();
+                    driver = new FirefoxDriver();
                     break;
                 case "headless-chrome":
                     WebDriverManager.chromedriver().setup();
@@ -45,10 +41,10 @@ public class CrossDriver {
         return driver;
     }
 
-    public static void closeDriver(){
-        if (driver!=null){ // driver'a deger atanmissa
+    public static void closeDriver() {
+        if (driver != null) {
             driver.close();
-            driver=null;
+            driver = null;
         }
 
     }

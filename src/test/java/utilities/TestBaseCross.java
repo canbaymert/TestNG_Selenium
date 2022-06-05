@@ -17,7 +17,7 @@ public class TestBaseCross {
 
         driver= CrossDriver.getDriver(browser);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @AfterMethod

@@ -3,15 +3,15 @@
     <test name="Cross browser chrome">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
-            <class name="tests.day22_crossBrowser.C01_AssertionsCross"></class>
-            <class name="tests.day22_crossBrowser.C02_SoftAssertCross"></class>
+            <class name="tests._06_CrossBrowser.C01_AssertionsCross"></class>
+            <class name="tests._06_CrossBrowser.C02_SoftAssertCross"></class>
         </classes>
     </test>
     <test name="Cross browser firefox">
         <parameter name="browser" value="firefox"></parameter>
         <classes>
-            <class name="tests.day22_crossBrowser.C01_AssertionsCross"></class>
-            <class name="tests.day22_crossBrowser.C02_SoftAssertCross"></class>
+            <class name="tests._06_CrossBrowser.C01_AssertionsCross"></class>
+            <class name="tests._06_CrossBrowser.C02_SoftAssertCross"></class>
         </classes>
     </test>
 </suite>

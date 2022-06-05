@@ -51,7 +51,7 @@ public class Q4_Alert_DependsOn  {
         Assert.assertEquals(alert.getText(),expectedMessage);
 
         alert.dismiss();
-        Assert.assertTrue(wdup.yaziElementi.isDisplayed());
+        Assert.assertTrue(wdup.textElement.isDisplayed());
     }
 
     /*

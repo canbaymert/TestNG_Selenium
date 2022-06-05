@@ -33,7 +33,7 @@ public class ReusableMethods {
         return target;
     }
 
-    //========Switching Window=====//
+    //=====Switching Window=====
     public static void switchToWindow(String targetTitle) {
         String origin = Driver.getDriver().getWindowHandle();
         for (String handle : Driver.getDriver().getWindowHandles()) {
@@ -45,13 +45,13 @@ public class ReusableMethods {
         Driver.getDriver().switchTo().window(origin);
     }
 
-    //========Hover Over=====//
+    //=====Hover Over=====
     public static void hover(WebElement element) {
         Actions actions = new Actions(Driver.getDriver());
         actions.moveToElement(element).perform();
     }
 
-    //==========Return a list of string given a list of Web Element====////
+    //====Return a list of string given a list of Web Element====
     public static List<String> getElementsText(List<WebElement> list) {
         List<String> elemTexts = new ArrayList<>();
         for (WebElement el : list) {
@@ -62,7 +62,7 @@ public class ReusableMethods {
         return elemTexts;
     }
 
-    //========Returns the Text of the element given an element locator==//
+    //==Returns the Text of the element given an element locator==
     public static List<String> getElementsText(By locator) {
         List<WebElement> elems = Driver.getDriver().findElements(locator);
         List<String> elemTexts = new ArrayList<>();
@@ -74,8 +74,7 @@ public class ReusableMethods {
         return elemTexts;
     }
 
-    //   HARD WAIT WITH THREAD.SLEEP
-//   waitFor(5);  => waits for 5 second
+    //==============Hard Wait==============
     public static void waitFor(int sec) {
         try {
             Thread.sleep(sec * 1000);
@@ -84,7 +83,7 @@ public class ReusableMethods {
         }
     }
 
-    //===============Explicit Wait==============//
+    //==============Explicitly Wait==============
     public static WebElement waitForVisibility(WebElement element, int timeout) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.visibilityOf(element));

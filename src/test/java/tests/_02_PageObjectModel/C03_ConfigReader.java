@@ -9,7 +9,6 @@ import utilities.Driver;
 public class C03_ConfigReader {
     @Test
     public void test01() {
-
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
         Driver.closeDriver();
@@ -17,9 +16,7 @@ public class C03_ConfigReader {
     @Test
     public void test02() {
         FacebookPage facebookPage=new FacebookPage();
-
         Driver.getDriver().get(ConfigReader.getProperty("facebookUrl"));
-
         facebookPage.cookieButton.click();
         // Enter an invalid mail address
         facebookPage.mailBox.sendKeys(ConfigReader.getProperty("fbWrongUsername"));

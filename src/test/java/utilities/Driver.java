@@ -10,9 +10,7 @@ import org.openqa.selenium.safari.SafariDriver;
 import java.time.Duration;
 
 public class Driver {
-
     // Default constructor is defined as private to prevent user to create an object by this class.
-
     private Driver() {
 
     }

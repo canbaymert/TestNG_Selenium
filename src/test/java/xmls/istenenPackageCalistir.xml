@@ -8,7 +8,7 @@
     </test>
     <test name="ayri test class i">
         <classes>
-            <class name="tests.day19_smokeTest.C01_NegativeLoginTest"></class>
+            <class name="tests._03_SmokeTest.C01_NegativeLoginTest"></class>
         </classes>
     </test>
 </suite>
