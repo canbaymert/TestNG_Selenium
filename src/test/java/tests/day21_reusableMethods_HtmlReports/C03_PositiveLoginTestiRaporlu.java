@@ -19,7 +19,7 @@ public class C03_PositiveLoginTestiRaporlu extends TestBaseRapor {
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
         extentTest.info("Brc anasayfaya gidildi");
         //		login butonuna bas
-        brcPage.ilkLoginButonu.click();
+        brcPage.firstLoginButton.click();
         extentTest.info("login butonuna tiklandi");
         // test data user email: customer@bluerentalcars.com ,
         brcPage.emailTextBox.sendKeys(ConfigReader.getProperty("brcValidEmail"));
@@ -28,11 +28,11 @@ public class C03_PositiveLoginTestiRaporlu extends TestBaseRapor {
         brcPage.passwordTextBox.sendKeys(ConfigReader.getProperty("brcValidPassword"));
         extentTest.info("Gecerli password yazildi");
         // login butonuna tiklayin
-        brcPage.ikinciLoginButonu.click();
+        brcPage.secondLoginButton.click();
         extentTest.info("login butonuna basildi");
         // Degerleri girildiginde sayfaya basarili sekilde girilebildigini test et
 
-        String actualUsername= brcPage.kullaniciProfilIsmi.getText();
+        String actualUsername= brcPage.userProfileName.getText();
         String expectedUsername=ConfigReader.getProperty("brcValidUsername");
         Assert.assertEquals(actualUsername,expectedUsername);
         extentTest.pass("kullanici basarili sekilde giris yapti");

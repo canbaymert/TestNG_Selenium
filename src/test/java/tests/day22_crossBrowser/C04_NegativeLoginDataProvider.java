@@ -28,16 +28,16 @@ public class C04_NegativeLoginDataProvider {
         Driver.getDriver().get(ConfigReader.getProperty("brcUrl"));
         //		login butonuna bas
         Thread.sleep(2000);
-        brcPage.ilkLoginButonu.click();
+        brcPage.firstLoginButton.click();
         // test data user email: dataprovider'dan alalim,
         brcPage.emailTextBox.sendKeys(userEmail);
         // test data password : dataprovider'dan alalim
         brcPage.passwordTextBox.sendKeys(password);
         // login butonuna tiklayin
-        brcPage.ikinciLoginButonu.click();
+        brcPage.secondLoginButton.click();
         // Degerleri girildiginde sayfaya basarili sekilde girilemedigini test et
 
-        Assert.assertTrue(brcPage.ikinciLoginButonu.isDisplayed());
+        Assert.assertTrue(brcPage.secondLoginButton.isDisplayed());
 
         Driver.closeDriver();
     }

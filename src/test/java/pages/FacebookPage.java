@@ -12,17 +12,17 @@ public class FacebookPage {
     }
 
     @FindBy(id = "email")
-    public WebElement mailKutusu;
+    public WebElement mailBox;
 
     @FindBy(id = "pass")
-    public WebElement sifreKutusu;
+    public WebElement passwordBox;
 
     @FindBy(name = "login")
-    public WebElement loginTusu;
+    public WebElement loginButton;
 
     @FindBy(className = "_9ay7")
-    public WebElement girilemediYaziElementi;
+    public WebElement loginFailedText;
 
     @FindBy(xpath = "//button[@class='_42ft _4jy0 _9xo7 _4jy3 _4jy1 selected _51sy']")
-    public WebElement cookieButonu;
+    public WebElement cookieButton;
 }

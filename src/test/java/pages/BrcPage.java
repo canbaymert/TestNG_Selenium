@@ -11,7 +11,7 @@ public class BrcPage {
     }
 
     @FindBy(xpath = "//a[@class='btn btn-primary btn-sm']")
-    public WebElement ilkLoginButonu;
+    public WebElement firstLoginButton;
 
     @FindBy(xpath = "//input[@name='email']")
     public WebElement emailTextBox;
@@ -20,9 +20,9 @@ public class BrcPage {
     public WebElement passwordTextBox;
 
     @FindBy(xpath = "//button[@type='submit']")
-    public WebElement ikinciLoginButonu;
+    public WebElement secondLoginButton;
 
     @FindBy(id = "dropdown-basic-button")
-    public WebElement kullaniciProfilIsmi;
+    public WebElement userProfileName;
 
 }

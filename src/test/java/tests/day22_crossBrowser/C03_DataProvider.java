@@ -18,10 +18,10 @@ public class C03_DataProvider {
         // amazon anasayfaya gidelim
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         // nutella icin arama yapalim
-        amazonPage.aramaKutusu.sendKeys("Nutella" + Keys.ENTER);
+        amazonPage.searchBox.sendKeys("Nutella" + Keys.ENTER);
         // sonuclarin nutella icerdigini test edelim
         String expectedKelime="Nutella";
-        String actualSonucYazisi=amazonPage.aramaSonucElementi.getText();
+        String actualSonucYazisi=amazonPage.searchResultElement.getText();
 
         Assert.assertTrue(actualSonucYazisi.contains(expectedKelime));
 
@@ -45,10 +45,10 @@ public class C03_DataProvider {
         // amazon anasayfaya gidelim
         Driver.getDriver().get(ConfigReader.getProperty("amazonUrl"));
         // Nutella, Java, cigdem ve Netherlands icin arama yapalim
-        amazonPage.aramaKutusu.sendKeys(arananKelime + Keys.ENTER);
+        amazonPage.searchBox.sendKeys(arananKelime + Keys.ENTER);
         // sonuclarin aradigimiz kelime icerdigini test edelim
         String expectedKelime=arananKelime;
-        String actualSonucYazisi=amazonPage.aramaSonucElementi.getText();
+        String actualSonucYazisi=amazonPage.searchResultElement.getText();
         Assert.assertTrue(actualSonucYazisi.contains(expectedKelime));
         // sayfayi kapatalim
         Driver.closeDriver();
