@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90e38d52-2d78-4a48-b9b1-43326a7e8076" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AmazonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/BrcPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/DHtmlGoodiesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/FacebookPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SauceDemoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WebDriverUniversityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C01_BeforeMethod_AfterMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C02_BeforeClass_AfterClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C03_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C04_DependsOnMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C05_Assertions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_01_Basics/C06_SoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C01_YeniDriverIlkClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C02_PageClassKullanimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/_02_PageObjectModel/C03_PageClassKullanimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_pom/C01_ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day18_pom/C02_ConfigReaderKullanimi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/NegativeLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day19_smokeTest/PozitifLoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day20_xmlFiles/C01_BugunXmlDosyalarOlusturuldu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21_reusableMethods_HtmlReports/C01_WindowHandleReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21_reusableMethods_HtmlReports/C02_ScreenShotReusableMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day21_reusableMethods_HtmlReports/C03_PositiveLoginTestiRaporlu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C01_AssertionsCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C02_SoftAssertCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C03_DataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/day22_crossBrowser/C04_NegativeLoginDataProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practices/Q1_Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practices/Q2_DependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practices/Q3_SoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practices/Q4_Alert_DependsOn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practices/Q5_DragAndDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/practices/Q6_DropDown_FakerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/CrossDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseCross.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/TestBaseRapor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/CrossBrowserClassCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/CrossBrowserParalelCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/belirliClasslariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/belirliGruplariCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/belirliTestMethodlariniCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/istenenPackageCalistir.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/tumTestleriCalistirma.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/xmls/tumTestleriParalelCalistirma.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2AAiYKrlJeaVo0LEPOcTrVlBui9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Mert/IdeaProjects/TestNG_Selenium/src/test/java/xmls"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mert\IdeaProjects\TestNG_Selenium\src\test\java\xmls" />
+      <recent name="C:\Users\Mert\IdeaProjects\TestNG_Selenium\src\test\java" />
+      <recent name="C:\Users\Mert\IdeaProjects\TestNG_Selenium" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mert\IdeaProjects\TestNG_Selenium" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C01_Driver.test01">
+    <configuration name="C01_BeforeMethod_AfterMethod" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests._01_Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests._01_Basics" />
+      <option name="MAIN_CLASS_NAME" value="tests._01_Basics.C01_BeforeMethod_AfterMethod" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C01_Driver.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests._02_PageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests._02_PageObjectModel" />
+      <option name="MAIN_CLASS_NAME" value="tests._02_PageObjectModel.C01_Driver" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C06_SoftAssert.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG_Selenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests._01_Basics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests._01_Basics" />
+      <option name="MAIN_CLASS_NAME" value="tests._01_Basics.C06_SoftAssert" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C01_Driver.test01" />
+        <item itemvalue="TestNG.C06_SoftAssert.test02" />
+        <item itemvalue="TestNG.C01_BeforeMethod_AfterMethod" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90e38d52-2d78-4a48-b9b1-43326a7e8076" name="Changes" comment="" />
+      <created>1654458836682</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654458836682</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
