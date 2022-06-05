@@ -16,13 +16,13 @@ import java.util.Collections;
 
 public class Q3_SoftAssert {
 
-    /*
+     /*
      * Navigate to  https://www.saucedemo.com/
      * Enter the user name  as standard_user
      * Enter the password as   secret_sauce
      * Click on login button
-     *     T1 : Choose price low to high with soft Assert
-     *     T2 : Verify item prices are sorted from low to high with hard Assert
+     * T1 : Choose price low to high with soft Assert
+     * T2 : Verify item prices are sorted from low to high with hard Assert
      */
 
     // Verify item prices are sorted from low to high with hard Assert
@@ -46,9 +46,7 @@ public class Q3_SoftAssert {
         softAssert.assertEquals(actual,expected);
         softAssert.assertEquals(actual2,expected);
         softAssert.assertAll();
-
     }
-
 
     @Test
     public void sauceDemoHard(){
@@ -61,18 +59,16 @@ public class Q3_SoftAssert {
 
         Select select =new Select(sdpage.dropDownMenu);
         select.selectByIndex(2);
-        ArrayList<Double> urunlerDouble = new ArrayList<>();
+        ArrayList<Double> products = new ArrayList<>();
 
         for (WebElement each: sdpage.products){
-           // String fiyatStr = each.getText().replaceAll("$", "");
-            String fiyatStr = each.getText().replaceAll("^\\D", "");
-            urunlerDouble.add(Double.parseDouble(fiyatStr));
+            String price = each.getText().replaceAll("^\\D", "");
+            products.add(Double.parseDouble(price));
         }
 
-        ArrayList<Double> kontrolListe = new ArrayList<>(urunlerDouble);
-        Collections.sort(kontrolListe);
-
-        Assert.assertEquals(kontrolListe,urunlerDouble);
+        ArrayList<Double> controlList = new ArrayList<>(products);
+        Collections.sort(controlList);
+        Assert.assertEquals(controlList,products);
 
     }
 }

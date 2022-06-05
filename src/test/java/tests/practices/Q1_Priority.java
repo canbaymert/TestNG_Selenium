@@ -4,39 +4,22 @@ import org.testng.annotations.Test;
 
 public class Q1_Priority {
 
-    /*
-      ●TestNG (default ) olarak @Test methodları ni alfabetik sıraya gore run eder ..(Yukardan asagi degil)
-      ●priority annotation Testlere öncelik vermek icin kullanilir, Kucuk olan Numara daha once calisir.
-      priority:  TestNG testlerinde, testler konsola alfabetik sira ile yazdirilir.
-      priority-> default sifirdir..
 
-      enabled = false  methodu : Testi gormezden gelmek icin @Test in yanina    '(enabled = false)' fonksiyonunu kullaniriz.
-     */
-
-    @Test(priority =3000)
-    public void b (){
+    @Test(priority = 3000)
+    public void b() {
         System.out.println("b");
     }
 
-    @Test(priority=2001, enabled = false)
-    public void a (){
+    @Test(priority = 2001, enabled = false)
+    public void a() {
         System.out.println("a");
     }
 
-    @Test(priority=2000)
-    public void c (){
+    @Test(priority = 2000)
+    public void c() {
         System.out.println("c");
     }
 
-/* ilk etapta cikti:
-    c
-    a
-    b
- enabled = false kullandigimda o test gormezden gelinir
-
-    c
-    b
- */
     @Test
     public void test01() {
         System.out.println("test01");
@@ -47,18 +30,17 @@ public class Q1_Priority {
         System.out.println("test02");
     }
 
-
-    @Test( enabled = false)
+    @Test(enabled = false)
     public void test03() {
         System.out.println("test03");
     }
 
-    @Test ( enabled = false)
+    @Test(enabled = false)
     public void test04() {
         System.out.println("test04");
     }
 
-    @Test ( enabled = false)
+    @Test(enabled = false)
     public void test05() {
         System.out.println("test05");
     }
@@ -74,7 +56,8 @@ public class Q1_Priority {
     test06
     c
     b
+
      */
-    }
+}
 
 

@@ -8,23 +8,18 @@ import utilities.Driver;
 
 public class Q4_Alert_DependsOn  {
 
-       /*
-     // 1. "http://webdriveruniversity.com/Popup-Alerts/index.html" adresine gidin
-     // 2. CLICK ME of JavaScript Alert e tıklayın
-     // 3. pop up text i alın
-     // 4. Mesajın "I am an alert box!"  olduğunu doğrulayın.
-     // 5. pop up i kabul edin
+     // Task 1
+     // 1. Go to url :"http://webdriveruniversity.com/Popup-Alerts/index.html"
+     // 2. Click "JavaScript Alert" button
+     // 3. Confirm the java script alert
+     // 4. Assert
 
-     // Yine ayni class da baska test methodu olusturun
-     // 1. "http://webdriveruniversity.com/Popup-Alerts/index.html" adresine gidin
-     // 2.  CLICK ME of JavaScript Confirm Box i  TIKLAYIN
-     // 3.  pop up text i alın
-     // 4. Mesajın "Press a button!" olduğunu doğrulayın
-     // 5. Açılır pencereyi kapat
-     // 6. pop up i iptal edin,
-     // 7. "You pressed Cancel!" yazisinin goruntulendigini dogrulayin
-     // 8. alert1'e göre dependsOnMethods kullanın
- */
+     // Task 2
+     // 1. Go to url : "http://webdriveruniversity.com/Popup-Alerts/index.html"
+     // 2. Click "JavaScript Confirm Box" button
+     // 3. Cancel the alert
+     // 4. Assert
+     // 5. dependsOnMethod1
 
     @Test
     public void alert1(){
@@ -54,14 +49,5 @@ public class Q4_Alert_DependsOn  {
         Assert.assertTrue(wdup.textElement.isDisplayed());
     }
 
-    /*
-    Alert alert = driver.switchTo().alert(); //bu sekilde de kullanimi mevcuttur
-    driver.switchTo().alert();    yerine   Alert data turundeki alert variable ini kullandik.
-    alert variable ile methodlara ulasilabilir
-    alert.dismiss();
-    alert.accept(); vb
-     alert.getText();
-    bu kullanim sayesinde switchto() yazmamiza gerek kalmaz
-     */
 }
 
