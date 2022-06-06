@@ -5,13 +5,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
+import utilities.ReusableMethods;
 import utilities.TestBase;
 
 public class Q6_RegisterTwitter extends TestBase {
 
-    // Register to twitter
+    // Register to twitter with faker
     @Test
-    public void register() throws InterruptedException {
+    public void register() {
 
         Faker faker = new Faker();
         driver.get("https://www.twitter.com");
@@ -25,7 +26,7 @@ public class Q6_RegisterTwitter extends TestBase {
         WebElement email = driver.findElement(By.name("email"));
         email.sendKeys(faker.internet().emailAddress());
 
-        Thread.sleep(2000);
+        ReusableMethods.waitFor(2);
 
         WebElement month = driver.findElement(By.xpath("//select[@id='SELECTOR_1']"));  //ay
         WebElement day = driver.findElement(By.xpath("//select[@id='SELECTOR_2']"));  //gun
