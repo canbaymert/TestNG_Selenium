@@ -21,6 +21,6 @@ public class ConfigReader {
     }
 
     public static String getProperty(String key){
-        return properties.getProperty(key); // Uses the defined key to bring the value
+        return properties.getProperty(key); // Uses the predefined key to bring the value of a property
     }
 }
