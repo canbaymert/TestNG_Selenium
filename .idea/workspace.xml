@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="90e38d52-2d78-4a48-b9b1-43326a7e8076" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mert/IdeaProjects/TestNG_Selenium/src/test/java/xmls&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Mert/IdeaProjects/TestNG_Selenium/src/test/java/xmls",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mert\IdeaProjects\TestNG_Selenium\src\test\java\xmls" />
@@ -52,7 +53,25 @@
       <recent name="C:\Users\Mert\IdeaProjects\TestNG_Selenium" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C01_Driver.test01">
+  <component name="RunManager" selected="TestNG.C01_Driver.test01 (1)">
+    <configuration name="C01_Driver.test01 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="com.TestNG_Batch59" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests._02_PageObjectModel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests._02_PageObjectModel" />
+      <option name="MAIN_CLASS_NAME" value="tests._02_PageObjectModel.C01_Driver" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C01_Driver.test01" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG_Selenium" />
       <extension name="coverage">
@@ -109,23 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Mert/IdeaProjects/TestNG_Selenium/src/test/java/xmls/RunCrossBrowserParallel.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestNG_Selenium" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/xmls/RunCrossBrowserParallel.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C01_Driver.test01 (1)" />
         <item itemvalue="TestNG.C01_Driver.test01" />
         <item itemvalue="TestNG.C:/Users/Mert/IdeaProjects/TestNG_Selenium/src/test/java/xmls/RunAllTests.xml" />
         <item itemvalue="TestNG.C04_DataProvider.invalidEntry" />
         <item itemvalue="TestNG.C:/Users/Mert/IdeaProjects/TestNG_Selenium/src/test/java/xmls/RunAllTestsParallel.xml" />
-        <item itemvalue="TestNG.C:/Users/Mert/IdeaProjects/TestNG_Selenium/src/test/java/xmls/RunCrossBrowserParallel.xml" />
       </list>
     </recent_temporary>
   </component>
